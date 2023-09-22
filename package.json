@@ -1,0 +1,16 @@
+{
+  "name": "fzfworker",
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "2.18.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "populate": "node populate.js"
+  },
+  "dependencies": {
+    "fuse.js": "^6.6.2"
+  }
+}

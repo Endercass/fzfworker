@@ -1,0 +1,5 @@
+name = "fzfworker"
+main = "src/index.js"
+compatibility_date = "2023-05-02"
+
+route = "https://fzfworker.endercass.me/*"
